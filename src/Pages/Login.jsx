@@ -7,7 +7,7 @@ const Login = () => {
 
   const handleClick = () => {
     setTimeout(() => {
-      navigate("/cards", { state: { data: { name: "Vishal" } } });
+      navigate("/cards", { state: { name: "vishal" } });
     }, 2000);
   };
 
